@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    /* the color in the property below was culled from COOlors */
+    color: #273E5B;
+    /* background-color: #98c1d9; */
+    /* background: #d1ccdc; */
+    background: #f1eed6;
+    /* color: #6EB3D8; */
+    /* text-align: center; */
+    /* the font family was copied from the web */
+    font-family: 'Orbitron', sans-serif;
+}
+#naija{
+    background-image: url("./images/nigeria2.jpg");
+    background-size: cover;
+    padding: 10px 0px 40px 0px;
+    text-align: center;
+}
+#title{
+    text-shadow: 0px 0px 5px black;
+    background: white;
+    width: 300px;
+    color: rgb(3, 17, 42);
+    border: 4px solid #072f44;
+    margin: auto;
+    border-radius: 4px;
+    padding: 20px 0px 20px 0px;
+}
+.aka{
+    padding: 6px 12px;
+    margin: 25px 100px 0 100px;
+    /* background: white; */
+    display: block;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    /* the inherit property was given to take up the font-family in the body section */
+    /* font-size: inherit; */
+    color: black;
+    font-weight: 600px;
+    font-size: larger;
+}
+.country-info{
+    text-align: center;
+    padding: 50px 50px;
+    border: 25px 50px;
+    line-height: 1.6;
+}
+h2{
+    text-align: center;
+}
+#visit{
+    text-align: center;
+}
+#yankari{
+    line-height: 19px;
+    text-align: justify;
+    justify-content: center;
+}
+.forest{
+    flex-direction: column;
+}
+#game{
+    text-align: center;
+}
+#places{
+    display: flex;
+    background-color: #F1FAEE;
+    position: absolute;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    align-content: center;
+}
+.photo{
+    width: 300px;
+    height: 300px;
+    /* border-radius: 100px; */
+}
+.guide-info{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.guide{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* The codes below gives a box shadow to the border */
+    box-shadow: 10px 10px 5px rgb(187, 178, 175);
+    margin: 0px auto;
+    /* width: 400px; */
+    width: 500px;
+    height: 400px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background-color: #7f9183;
+    /* background-color: rgb(206, 175, 96); */
+    color: black;
+    border-bottom: 6px solid #271b1f;
+    border-radius: 20px;
+    /* the property below gives animation to the div */
+    animation-name: change;
+    animation-duration: 5s;
+}
+@keyframes change {
+    from {background-color: #7f9183;}
+    to {background-color: #706677;}
+  }
