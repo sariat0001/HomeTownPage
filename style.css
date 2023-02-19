@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    /* the color in the property below was culled from COOlors */
+    color: #273E5B;
+    background: #f1eed6;
+    /* the font family was copied from the web */
+    font-family: 'Orbitron', sans-serif;
+}
+#naija{
+    background-image: url("./images/nigeria2.jpg");
+    background-size: cover;
+    padding: 10px 0px 100px 0px;
+    text-align: center;
+    animation-name: nature;
+    animation-duration: 20s;
+}
+@keyframes nature {
+    from {background-image: url("./images/nigeria2.jpg");}
+    to {background-image: url("./images/Waterfall-in-Nigeria.jpg")}
+  }
+#title{
+    text-shadow: 0px 0px 5px black;
+    background: white;
+    width: 250px;
+    color: rgb(3, 17, 42);
+    border:  #072f44;
+    margin: 50px 100px 0px 475px;
+    border-radius: 4px;
+    padding: 20px 0px 20px 0px;
+}
+.aka{
+    text-shadow: 0px 0px 5px rgb(3, 26, 21);
+    padding: 15px 0px;
+    width: 200px;
+    margin: 50px 100px 0px 500px;
+    font-family: 'Orbitron', sans-serif;
+    border: none;
+    color: green;
+    background: white;
+    font-size: 18px;
+}
+.country-info{
+    background: rgb(167, 224, 192);
+    text-align: center;
+    line-height: 1.6;
+    padding: 50px 200px;
+}
+#visit{
+    text-align: center;
+    padding: 20px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-size: 25px;
+}
+#visit:hover{
+    background-color: rgb(93, 93, 50);
+}
+#places{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    /* text-align: left; */
+}
+.foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.tourist{
+    text-align: center;
+    line-height: 2;
+}
+.fun{
+    font-size: 18px;
+    color: olive;
+}
+.fun:hover{
+    background-color: rgb(210, 194, 18);
+}
+/* h4{
+    text-align: center;
+} */ 
+.photo{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+}
+p:hover{
+    background-color: rgb(210, 194, 18);
+}
+h3:hover{
+    background-color: rgb(210, 194, 18);
+}
+#guide-name{
+    color: goldenrod;
+    text-shadow: 0px 0px 5px rgb(3, 26, 21);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#guide{
+    padding: 50px 10px 50px 10px;
+    display: flex;
+    gap: 8px;
+    align-content: center;
+    /* The codes below gives a box shadow to the border */
+    box-shadow: 10px 10px 5px rgb(187, 178, 175);
+    margin: 50px auto;
+    /* width: 400px; */
+    width: 400px;
+    height: 300px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #7f9183;
+    color: black;
+    border-bottom: 6px solid #271b1f;
+    border-radius: 20px;
+    /* the property below gives animation to the div */
+    animation-name: change;
+    animation-duration: 5s;
+}
+@keyframes change {
+    from {background-color: #7f9183;}
+    to {background-color: #706677;}
+  }
